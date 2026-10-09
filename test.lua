@@ -26,9 +26,9 @@ do
     local queueFunc = getQueueOnTeleport()
 
     -- ⚠ ЗАМЕНИ ЭТУ ССЫЛКУ НА РЕАЛЬНЫЙ ПУТЬ/URL СВОЕГО СКРИПТА
-    local scriptUrl = "ТВОЯ_ССЫЛКА_НА_СКРИПТ"
+    local scriptUrl = "https://raw.githubusercontent.com/foxikss0/test1231/refs/heads/main/test.lua"
 
-    if queueFunc and scriptUrl ~= "ТВОЯ_ССЫЛКА_НА_СКРИПТ" then
+    if queueFunc and scriptUrl ~= "https://raw.githubusercontent.com/foxikss0/test1231/refs/heads/main/test.lua" then
         local Players = game:GetService("Players")
         local LP = Players.LocalPlayer
         if LP then
